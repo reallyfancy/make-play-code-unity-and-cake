@@ -70,7 +70,7 @@ This line tells Unity that we are creating a variable with a type of int and a n
 
 An int is a round number. Other types we looked at this week include string (a sequence of characters) and bool (true or false).
 
-#### Setting the value
+#### Setting the value of a variable
 
 We set the value of a variable using the = operator, like so:
 
@@ -80,7 +80,7 @@ score = 100;
 
 We can only set the value of a variable to something of the same type of the variable. In the above example, the variable *score* has the type int so its value can only ever be a round number.
 
-#### Declaring a variable and setting the value at the same time
+#### Declaring a variable and setting its value at the same time
 
 It’s common in C# to declare a variable and set its value at the same time. Let’s take a look at a couple of examples of this:
 
@@ -91,7 +91,7 @@ bool isMapScreenShowing = true;
 int scoreToWin = 300;
 </pre>
 
-#### Getting the value
+#### Getting the value of a variable
 
 To get the current value of a variable, we just type its name.
 
