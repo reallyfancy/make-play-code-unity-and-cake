@@ -54,7 +54,7 @@ Written code is fussy! It can’t understand typos and you have to be careful ab
 
 * We can add **_comments_** to our code by putting two forward slashes at the start of a line. Comments are a way of making notes in our code.
 
-### Variables in C#
+### Variables in C\#
 
 When we create a variable, we say that we are **_declaring_** it. When we change its value, we say that we are **_setting_** its value. When we find out its value, we say that we are **_getting_** its value.
 
@@ -112,7 +112,7 @@ An example is *name*. All Unity components have a variable called *name*. *name*
 Debug.Log(name);
 </pre>
 
-### Functions in C#
+### Functions in C\#
 
 A function is a set of instructions, followed in order. When we create a function, we say that we are **_declaring_** the function. When we run the code inside the function, we say that we are **_calling_** the function.
 
