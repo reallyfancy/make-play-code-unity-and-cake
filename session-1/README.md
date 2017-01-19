@@ -4,7 +4,7 @@
 
 ## What we learned this week
 
-This week we learned that a game is made of files - such as graphic and sound files - and code. The code wires all the files together and controls the game.
+This week we learned that a game is made of assets - such as graphic and sound files - and code. The code controls the game.
 
 We learned that we can use Scratch to create code. We also learned that there is no shame at all in learning from resources aimed at children.
 
