@@ -102,16 +102,6 @@ string message = "Hello";
 Debug.Log(message);
 </pre>
 
-#### Special Unity variables
-
-There are a number of special Unity variables that already contain information that we can use in our code.
-
-An example is *name*. All Unity components have a variable called *name*. *name* is a string whose value is the name of the GameObject that the component is attached to. We can use it in our scripts like so:
-
-<pre>
-Debug.Log(name);
-</pre>
-
 ### Functions
 
 A function is a set of instructions, followed in order. When we create a function, we say that we are **_declaring_** the function. When we run the code inside the function, we say that we are **_calling_** the function.
