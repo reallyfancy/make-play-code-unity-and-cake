@@ -54,6 +54,54 @@ Written code is fussy! It can’t understand typos and you have to be careful ab
 
 * We can add **_comments_** to our code by putting two forward slashes at the start of a line. Comments are a way of making notes in our code.
 
+### Variables
+
+When we create a variable, we say that we are **_declaring_** it. When we change its value, we say that we are **_setting_** its value. When we find out its value, we say that we are **_getting_** its value.
+
+#### Declaring variables
+
+In C#, a variable has three things: a name, a value and a **_type_**. The type tells Unity what sort of data is stored in a variable.  When we declare a variable, we need to specify the name and the type, like so:
+
+<pre>
+int score;
+</pre>
+
+This line tells Unity that we are creating a variable with a type of int and a name of score. 
+
+An int is a round number. Other types we looked at this week include string (a sequence of characters) and bool (true or false).
+
+#### Setting the value of a variable
+
+We set the value of a variable using the = operator, like so:
+
+<pre>
+score = 100;
+</pre>
+
+We can only set the value of a variable to something of the same type of the variable. In the above example, the variable *score* has the type int so its value can only ever be a round number.
+
+#### Declaring a variable and setting its value at the same time
+
+It’s common in C# to declare a variable and set its value at the same time. Let’s take a look at a couple of examples of this:
+
+<pre>
+string message = "Hello";
+string playerName = "Kerry";
+bool isMapScreenShowing = true;
+int scoreToWin = 300;
+</pre>
+
+#### Getting the value of a variable
+
+To get the current value of a variable, we just type its name.
+
+In this example, we use the function *Debug.Log* to print the value of a variable to the console in Unity:
+
+<pre>
+string message = "Hello";
+Debug.Log(message);
+</pre>
+
 ### Functions
 
 A function is a set of instructions, followed in order. When we create a function, we say that we are **_declaring_** the function. When we run the code inside the function, we say that we are **_calling_** the function.
@@ -75,7 +123,7 @@ The instructions that make up the function go inside the curly brackets. These i
 
 #### Parameters
 
-We can pass data to functions using **_parameters_**. We’ll look at parameters in more detail next week, but here’s what a function with parameters looks like:
+We can pass variables to functions using **_parameters_**. We’ll look at these in more detail next week, but here’s what a function that accepts parameters looks like:
 
 <pre>
 private void PrintPlayerName(string playerName)
@@ -94,7 +142,7 @@ To call a function without parameters, we just type its name followed by a set o
 PrintToConsole();
 </pre>
 
-To call a function with parameters, we type its name followed by a set of regular brackets. Inside the brackets, we put the data that we want to pass it, like so:
+To call a function with parameters, we type its name followed by a set of regular brackets. Inside the brackets, we put the data that we want to pass it as parameters, like so:
 
 <pre>
 PrintPlayerName("Kerry");
