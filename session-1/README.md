@@ -38,7 +38,7 @@ Code can perform checks to decide which instructions to follow at a given time. 
 
 A conditional consists of a **_statement_** such as "candlesNeeded is less than 1" and a set of instructions to follow if that statement is true. We can also, optionally, add other instructions to follow if the statement is false.
 
-In the sample project, we use a conditional to send a message when the value of the variable named *candlesNeeded *was less than 1.
+In the sample project, we use a conditional to send a message when the value of the variable named *candlesNeeded* was less than 1.
 
 ### Operators
 
