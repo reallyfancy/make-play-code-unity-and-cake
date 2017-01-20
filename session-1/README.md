@@ -52,7 +52,7 @@ We looked at three types of operators today:
 
 * *Logical operators* are used to make conditionals more complex and powerful, such as using AND to indicate that something should happen if more than one statement is true.
 
-In the sample project, we used an arithmetic operator to set the value of *candlesNeeded* to 3 when the game started and to reduce the value of *candlesNeeded* by 1 when the player clicked on candles. We used a comparison operator to check whether the value of *candlesNeeded* was 0, meaning that the player had collected all of the candles.
+In the sample project, we used an arithmetic operator to set the value of *candlesNeeded* to 3 when the game started and to reduce the value of *candlesNeeded* by 1 when the player clicked on candles. We used a comparison operator to check whether the value of *candlesNeeded* less than 1, meaning that the player had collected enough candles.
 
 ## Resources
 
