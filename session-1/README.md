@@ -56,13 +56,14 @@ In the sample project, we used an arithmetic operator to set the value of *candl
 
 ## Resources
 
-[Scratch](https://scratch.mit.edu/) - Here it is!
+[Scratch](https://scratch.mit.edu/)
 
-[The Make Play Code sample project](https://scratch.mit.edu/projects/69410900) - In all its glory.
+[The Make Play Code sample project](https://scratch.mit.edu/projects/69410900)
+
+[Scratch games made by Make Play Code students](https://scratch.mit.edu/users/reallyfancy/favorites/) - Remember, you can click **See inside** on any Scratch project to see the code.
 
 [The Scratch help page](https://scratch.mit.edu/help/) - Various useful resources including a manual, a set of cards recommending simple code combinations that you can try out and video tutorials for longer projects.
 
 [Scratch blocks](http://wiki.scratch.mit.edu/wiki/Blocks) - A handy reminder of the various blocks available in Scratch.
 
-[How to share your Scratch project](http://wiki.scratch.mit.edu/wiki/Project_Sharing) - So that you’re ready to quickly demo it next week!
-
+[How to share your Scratch project](http://wiki.scratch.mit.edu/wiki/Project_Sharing)
