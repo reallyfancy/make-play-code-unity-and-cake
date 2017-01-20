@@ -20,7 +20,7 @@
 
 * In Unity, get familiar with using the different windows and panels to explore the project.
 
-* Open the script files we worked on and read the code. Identify the different variables and functions and think about how they work.
+* Open the script files we worked on and read the code. Identify the different functions and think about how they work.
 
 * Go through the Resources section at the end of these notes and refresh yourself on what we covered this week. The more familiar you are with the terms and concepts, the easier next week will be!
 
@@ -118,8 +118,6 @@ private void Start()
 ## Resources
 
 * To go over what the different windows and panels in the Unity Editor do, watch [this Unity video on the Unity Editor](https://unity3d.com/learn/tutorials/topics/interface-essentials/interface-overview?playlist=17090).
-
-* To refresh your knowledge of variables and functions in C#, watch [this Unity video on variables and functions](https://unity3d.com/learn/tutorials/topics/scripting/variables-and-functions?playlist=17117).
 
 * To make sure you understand the *Start* function in Unity, watch [this Unity video on the Awake and Start functions](https://unity3d.com/learn/tutorials/topics/scripting/awake-and-start?playlist=17117).
 
