@@ -36,7 +36,7 @@ We’ll look at functions in more detail next week, but we can think of the conn
 
 Code can perform checks to decide which instructions to follow at a given time. These checks are called **_conditionals_**. 
 
-A conditional consists of a **_statement_** such as "candlesNeeded is less than 1" and a set of instructions to follow if that statement is true. We can also, optionally, add other instructions to follow if the statement is false.
+A conditional consists of a **_statement_** such as "the value of *candlesNeeded* is less than 1" and a set of instructions to follow if that statement is true. We can also, optionally, add other instructions to follow if the statement is false.
 
 In the sample project, we use a conditional to send a message when the value of the variable named *candlesNeeded* was less than 1.
 
