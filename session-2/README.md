@@ -24,6 +24,8 @@
 
 * Go through the Resources section at the end of these notes and refresh yourself on what we covered this week. The more familiar you are with the terms and concepts, the easier next week will be!
 
+* Go to the [Unity Asset Store](https://www.assetstore.unity3d.com/en/) and pick out some 3D models to add to your game. Don't pick out anything too complicated with animated characters or complicated functionality for now - just find some simple objects to put in your Scene.
+
 ## The Unity Editor basics
 
 ### Understanding GameObjects, components and scripts
