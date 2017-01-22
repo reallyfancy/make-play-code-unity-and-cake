@@ -38,13 +38,13 @@ Whenever you drop an audio file - like an .mp3 or .wav file - into Unity, Unity 
 
 Like all assets in your project, you can select an AudioClip in the Project panel to see information about it in the Inspector panel.
 
-### AudioSource
+#### AudioSource
 
 An AudioSource is a component that broadcasts sound.
 
 An AudioSource has a few variables that let you change things in the Inspector panel, such as volume and the currently loaded AudioClip. The most important one to remember is Spatial Blend - this is how you set whether an AudioSource gets louder as the AudioListener approaches it or whether it always plays at the same volume.
 
-### AudioListener
+#### AudioListener
 
 The AudioListener component acts like a microphone in the world. We usually attach it to the same GameObject as a Camera component.
 
