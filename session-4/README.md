@@ -1,6 +1,6 @@
 # Unity and Cake
 
-# Session 4: UI and polish
+# Session 4: UI, polish and more code
 
 ## What we learned this week
 
