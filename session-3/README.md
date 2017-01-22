@@ -30,6 +30,26 @@
 
 ### Audio
 
+We looked at two very simple examples of audio in Unity - playing background music and playing a sound effect in the game world.
+
+#### AudioClip
+
+Whenever you drop an audio file - like an .mp3 or .wav file - into Unity, Unity creates an AudioClip asset from it.
+
+Like all assets in your project, you can select an AudioClip in the Project panel to see information about it in the Inspector panel.
+
+### AudioSource
+
+An AudioSource is a component that broadcasts sound.
+
+An AudioSource has a few variables that let you change things in the Inspector panel, such as volume and the currently loaded AudioClip. The most important one to remember is Spatial Blend - this is how you set whether an AudioSource gets louder as the AudioListener approaches it or whether it always plays at the same volume.
+
+### AudioListener
+
+The AudioListener component acts like a microphone in the world. We usually attach it to the same GameObject as a Camera component.
+
+You should only ever have one AudioListener active at once. The console will warn you if you have more than one.
+
 ## Writing code
 
 This week we looked at using variables, conditionals and operators in C# to add logic and interactivity to our games.		
