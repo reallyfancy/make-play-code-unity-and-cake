@@ -1,6 +1,6 @@
 # Unity and Cake
 
-# Session 3: UI and polish
+# Session 4: UI and polish
 
 ## What we learned this week
 
@@ -25,6 +25,12 @@
 This week we learned how to use access modifiers in our scripts and how our components can communicate with other components.
 
 ### Access modifiers
+
+When we declare a member variable or a function, we can put the word *private* or *public* in front of it. This is called an access modifier.
+
+Public functions can be called by other scripts. Public variables can be seen and changed by other scripts and the Inspector panel. Private functions and variables can only be used within the same script.
+
+In C#, if we don’t explicitly declare an access modifier, variables and functions default to *private*.
 
 ### Other components as variables
 
