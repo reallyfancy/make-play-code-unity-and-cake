@@ -26,7 +26,7 @@
 
 * Go to the [Unity Asset Store](https://www.assetstore.unity3d.com/en/) and pick out some 3D models to add to your game. Don't pick out anything too complicated with animated characters or complicated functionality for now - just find some simple objects to put in your Scene.
 
-## The Unity Editor basics
+## The Unity Editor
 
 ### Understanding GameObjects, components and scripts
 
@@ -40,9 +40,9 @@ Unity contains lots of pre-made components for common tasks such as playing a so
 
 A script is a blueprint that Unity uses to create a component. The code we write in our script tells Unity how the component will work and what fields to display in the Inspector panel.
 
-## Writing code for Unity
+## Writing code
 
-We write code using a language called C# (pronounced *see sharp*). We write our code in a separate program called a **_text editor_** and save our code in a script file. When we return to Unity, we can use the script file in our Unity project.					
+We write code for Unity using a language called C# (pronounced *see sharp*). We write our code in a separate program called a **_text editor_** and save our code in a script file. When we return to Unity, we can use the script file in our Unity project.					
 
 ### C# basics
 
