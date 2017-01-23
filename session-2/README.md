@@ -30,13 +30,13 @@
 
 ### Understanding GameObjects, components and scripts
 
-The basic building blocks of Unity are **_GameObjects_**. You can think of these as being a bit like sprites in Scratch. GameObjects are blank slates: they don’t do anything, and you can’t see them in the game.
+The basic building blocks of Unity are **_[GameObjects](http://docs.unity3d.com/Manual/class-GameObject.html)_**. You can think of these as being a bit like sprites in Scratch. GameObjects are blank slates: they don’t do anything, and you can’t see them in the game.
 
-We tell GameObjects to do things by adding **_components_**. A component tells Unity that the GameObject it is attached to should do things such as move, display a shape on the screen, make a sound, and so on. Components are like Lego bricks: you can stack lots of different components on the same GameObject to build something complex.
+We tell GameObjects to do things by adding **_[components](http://docs.unity3d.com/Manual/UsingComponents.html)_**. A component tells Unity that the GameObject it is attached to should do things such as move, display a shape on the screen, make a sound, and so on. Components are like Lego bricks: you can stack lots of different components on the same GameObject to build something complex.
 
 ### Making our own components
 
-Unity contains lots of pre-made components for common tasks such as playing a sound or displaying graphics. We can build simple things with these pre-made components, but to customise our game we must create our own components. We do this by writing **_code_** in a **_script_**.
+Unity contains lots of pre-made components for common tasks such as playing a sound or displaying graphics. We can build simple things with these pre-made components, but to customise our game we must create our own components. We do this by writing **_code_** in a **_[script](http://docs.unity3d.com/Manual/CreatingComponents.html)_**.
 
 A script is a blueprint that Unity uses to create a component. The code we write in our script tells Unity how the component will work and what fields to display in the Inspector panel.
 
