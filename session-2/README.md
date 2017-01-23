@@ -36,7 +36,7 @@ We tell GameObjects to do things by adding **_[components](http://docs.unity3d.c
 
 ### Making our own components
 
-Unity contains lots of pre-made components for common tasks such as playing a sound or displaying graphics. We can build simple things with these pre-made components, but to customise our game we must create our own components. We do this by writing **_code_** in a **_[script](http://docs.unity3d.com/Manual/CreatingComponents.html)_**. The code we write in our script tells Unity how the component will work.
+Unity contains lots of pre-made components for common tasks such as playing a sound or displaying graphics. We can build simple things with these pre-made components, but to customise our game we must create our own components. We do this by writing **_code_** in a **_[script](http://docs.unity3d.com/Manual/CreatingAndUsingScripts.html)_**. The code we write in our script tells Unity how the component will work.
 
 ## Writing code
 
@@ -120,6 +120,3 @@ private void Start()
 * To go over what the different windows and panels in the Unity Editor do, watch [this Unity video on the Unity Editor](https://unity3d.com/learn/tutorials/topics/interface-essentials/interface-overview?playlist=17090).
 
 * To make sure you understand the *Start* function in Unity, watch [this Unity video on the Awake and Start functions](https://unity3d.com/learn/tutorials/topics/scripting/awake-and-start?playlist=17117).
-
-* For a good summary on writing scripts to create components, see [this page of the Unity Manual](https://docs.unity3d.com/Manual/CreatingAndUsingScripts.html).
-
