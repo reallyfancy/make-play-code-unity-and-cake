@@ -36,9 +36,7 @@ We tell GameObjects to do things by adding **_[components](http://docs.unity3d.c
 
 ### Making our own components
 
-Unity contains lots of pre-made components for common tasks such as playing a sound or displaying graphics. We can build simple things with these pre-made components, but to customise our game we must create our own components. We do this by writing **_code_** in a **_[script](http://docs.unity3d.com/Manual/CreatingComponents.html)_**.
-
-A script is a blueprint that Unity uses to create a component. The code we write in our script tells Unity how the component will work and what fields to display in the Inspector panel.
+Unity contains lots of pre-made components for common tasks such as playing a sound or displaying graphics. We can build simple things with these pre-made components, but to customise our game we must create our own components. We do this by writing **_code_** in a **_[script](http://docs.unity3d.com/Manual/CreatingComponents.html)_**. The code we write in our script tells Unity how the component will work.
 
 ## Writing code
 
