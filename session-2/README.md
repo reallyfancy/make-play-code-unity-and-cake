@@ -106,7 +106,7 @@ PrintPlayerName("Kerry");
 
 In Scratch, we can use Event blocks to run code when the user restarts the game or when the backdrop changes. In Unity, we can do something similar. There are special names for functions, called **_event functions_**. If we create a function with one of these special names, Unity will call it automatically at the appropriate time.
 
-*Start* is an event function. If we put a function named *Start* in our script, Unity will call this function automatically when a GameObject with this script on it first appears in the game.
+*Start* is an event function. If we put a function named *Start* in our script, Unity will call this function automatically when a GameObject with this script on it first appears in a Scene.
 
 <pre>
 private void Start()
