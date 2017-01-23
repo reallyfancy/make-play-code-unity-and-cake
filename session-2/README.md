@@ -40,7 +40,7 @@ Unity contains lots of pre-made components for common tasks such as playing a so
 
 ## Writing code
 
-We write code for Unity using a language called C# (pronounced *see sharp*). We write our code in a separate program called a **_text editor_** and save our code in a script file. When we return to Unity, we can use the script file in our Unity project.					
+We write code for Unity using a language called C# (pronounced **see sharp**). We write our code in a separate program called a **_text editor_** and save our code in a script file. When we return to Unity, we can use the script file in our Unity project.					
 
 ### C# basics
 
