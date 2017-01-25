@@ -4,7 +4,7 @@
 
 ## What we learned this week
 
-* We learned that Unity takes care of most tasks related to graphics and audio for us, so we only have to add our assets and customise settings.
+* We learned that Unity takes care of most tasks related to graphics and audio for us. We only have to add our assets, wire things together and customise settings.
 
 * We learned the terms for the different components and assets that control graphics and audio in Unity.
 
