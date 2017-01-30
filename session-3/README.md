@@ -28,13 +28,15 @@
 
 ### Graphics
 
+We learned that the term for drawing things to the screen in a game is **_rendering_**. Unity needs several different components and assets in order to render a GameObject: a **_[MeshFilter]{https://docs.unity3d.com/Manual/class-MeshFilter.html}_** component, a **_[mesh]{https://docs.unity3d.com/Manual/class-Mesh.html}_**, a **_[Renderer]{https://docs.unity3d.com/Manual/class-MeshRenderer.html}_** component and at least one **_[material]{https://docs.unity3d.com/Manual/class-Material.html}_**. We don't need to memorise these - we just need to realise that rendering is complex!
 
+The simplest way to change the appearance of a GameObject is to change the material that its Renderer uses. We created a couple of simple new materials to give our Scene a little colour.
 
 ### Audio
 
-Whenever you drop an audio file - like an .mp3 or .wav file - into Unity, Unity creates an [AudioClip]{https://docs.unity3d.com/ScriptReference/AudioClip.html} asset from it. Like all assets in your project, you can select an AudioClip in the Project panel to see information about it in the Inspector panel.
+We learned that whene we drop an audio file (like an .mp3 or .wav file) into Unity, Unity turns it into an **_[AudioClip]_**{https://docs.unity3d.com/ScriptReference/AudioClip.html} asset. Like all assets in your project, you can select an AudioClip in the Project panel to see information about it in the Inspector panel.
 
-To play and hear an AudioClip, we need two things: an [AudioSource]{https://docs.unity3d.com/ScriptReference/AudioSource.html} and an [AudioListener]{https://docs.unity3d.com/ScriptReference/AudioListener.html}. An AudioSource plays sound, and an AudioListener receives sound.
+To play and hear an AudioClip, we need two things: an **_[AudioSource]{https://docs.unity3d.com/ScriptReference/AudioSource.html}_** and an **_[AudioListener]{https://docs.unity3d.com/ScriptReference/AudioListener.html}_**. An AudioSource plays sound, and an AudioListener receives sound.
 
 ## Writing code
 
