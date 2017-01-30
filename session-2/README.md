@@ -24,7 +24,9 @@
 
 * Go through the Resources section at the end of these notes and refresh yourself on what we covered this week. The more familiar you are with the terms and concepts, the easier next week will be!
 
-* Go to the [Unity Asset Store](https://www.assetstore.unity3d.com/en/), pick out some simple 3D models that you'd like to add to your game and bookmark them. Don't add them to your project yet - we'll do that together in the session.
+* Go to the [Unity Asset Store](https://www.assetstore.unity3d.com/en/), and pick out some assets for your game. Don't add them to your project yet - we'll do that together in the session - just bookmark them in your browser or add them to your Asset Store wish list. The assets you'll need for next week are:
+	* Simple 3D models to use as props or collectables.
+	* Ambient sounds or music to play in the background.
 
 ## The Unity Editor
 
