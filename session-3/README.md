@@ -40,7 +40,7 @@ We created a couple of simple new materials to give our Scene a little colour.
 
 ### Audio
 
-We learned that whene we drop an audio file (like an .mp3 or .wav file) into Unity, Unity turns it into an **_[AudioClip]_**(https://docs.unity3d.com/ScriptReference/AudioClip.html) asset. Like all assets in your project, you can select an AudioClip in the Project panel to see information about it in the Inspector panel.
+We learned that whene we drop an audio file (like an .mp3 or .wav file) into Unity, Unity turns it into an **_[AudioClip](https://docs.unity3d.com/ScriptReference/AudioClip.html)_** asset. Like all assets in your project, you can select an AudioClip in the Project panel to see information about it in the Inspector panel.
 
 To play and hear an AudioClip, we need two things: an **_[AudioSource](https://docs.unity3d.com/ScriptReference/AudioSource.html)_** and an **_[AudioListener](https://docs.unity3d.com/ScriptReference/AudioListener.html)_**. An AudioSource plays sound, and an AudioListener receives sound.
 
