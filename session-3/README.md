@@ -102,7 +102,7 @@ Debug.Log(message);
 
 Where we declare a variable is very important. A variable that is declared outside of a function is called a **_member variable_**. A variable that is declared within a function or conditional is called a **_local variable_**. 
 
-A member variable can be used anywhere inside the same script. A local variable can only be used in inside the function or conditional where it was declared. The term for where a variable can be used is its **_scope_**.
+A member variable can be used anywhere inside the same script. A local variable can only be used in inside the function or conditional where it was declared.
 
 In the following example, the variable *score* is a member variable because it is declared outside of any functions. It can be used in any functions within this class. The variable named *message* is a local variable because it is declared inside the *Start* function. It can only be used within the *Start* function.
 
