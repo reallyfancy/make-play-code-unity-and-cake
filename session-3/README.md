@@ -28,9 +28,9 @@
 
 ### Graphics
 
-We learned that the term for drawing things to the screen in a game is **_rendering_**. Unity needs several different components and assets in order to render a GameObject: a **_[MeshFilter]{https://docs.unity3d.com/Manual/class-MeshFilter.html}_** component, a **_[mesh]{https://docs.unity3d.com/Manual/class-Mesh.html}_**, a **_[Renderer]{https://docs.unity3d.com/Manual/class-MeshRenderer.html}_** component and at least one **_[material]{https://docs.unity3d.com/Manual/class-Material.html}_**. We don't need to memorise these - we just need to realise that rendering is complex!
+We learned that the term for drawing things to the screen in a game is **_rendering_**. Unity needs several different components and assets in order to render a GameObject: a **_[MeshFilter](https://docs.unity3d.com/Manual/class-MeshFilter.html)_** component, a **_[mesh](https://docs.unity3d.com/Manual/class-Mesh.html)_**, a **_[Renderer](https://docs.unity3d.com/Manual/class-MeshRenderer.html)_** component and at least one **_[material](https://docs.unity3d.com/Manual/class-Material.html)_**. We don't need to memorise these - we just need to realise that rendering is complex!
 
-The simplest way to change the appearance of a GameObject is to change the material that its Renderer uses. We created a couple of simple new materials to give our Scene a little colour.
+The simplest way to change the appearance of a GameObject is to change the material that its renderer uses. We created a couple of simple new materials to give our Scene a little colour.
 
 ### Audio
 
