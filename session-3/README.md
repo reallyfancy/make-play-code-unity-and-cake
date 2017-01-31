@@ -28,7 +28,7 @@
 
 ### Graphics
 
-We learned that the term for drawing things to the screen in a game is **_rendering_**. Unity needs several different components and assets in order to render a GameObject. A **_[MeshFilter](https://docs.unity3d.com/Manual/class-MeshFilter.html)_** component has a **_[mesh](https://docs.unity3d.com/Manual/class-Mesh.html)_** asset, and this tells Unity what shape the GameObject is. A **_[Renderer](https://docs.unity3d.com/Manual/class-MeshRenderer.html)_** component has at least one **_[material](https://docs.unity3d.com/Manual/class-Material.html)_** asset, and this tells Unity how to draw the surface of the GameObject.
+We learned that the term for drawing things to the screen is **_rendering_**. Unity needs several different components and assets in order to render a GameObject. A **_[MeshFilter](https://docs.unity3d.com/Manual/class-MeshFilter.html)_** component has a **_[mesh](https://docs.unity3d.com/Manual/class-Mesh.html)_** asset, and this tells Unity what shape the GameObject is. A **_[Renderer](https://docs.unity3d.com/Manual/class-MeshRenderer.html)_** component has at least one **_[material](https://docs.unity3d.com/Manual/class-Material.html)_** asset, and this tells Unity how to draw the surface of the GameObject.
 
 We created a couple of simple new materials to give our Scene a little colour.
 
