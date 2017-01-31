@@ -28,7 +28,7 @@
 
 ### Prefabs
 
-We looked at **_[Prefabs](https://docs.unity3d.com/Manual/Prefabs.html)_** when we imported assets into our project. A Prefab is an asset that is like a blueprint for a GameObject. When we drag a Prefab from our Project panel into our Scene view or Hierarchy panel, Unity makes a GameObject from that blueprint. This means that GameObject that is placed in our Scene already has all of the same components and settings as the Prefab.
+We looked at **_[Prefabs](https://docs.unity3d.com/Manual/Prefabs.html)_** when we imported assets into our project. A Prefab is an asset that works like a blueprint for a GameObject. When we drag a Prefab from our Project panel into our Scene view or Hierarchy panel, Unity makes a GameObject from that blueprint. This means that GameObject that is placed in our Scene already has all of the same components and settings as the Prefab.
 
 We can recognise a prefab in the Project panel by the blue cube icon. We can recognise a copy of a Prefab in our Hierarchy view as its name appears in blue.
 
