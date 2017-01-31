@@ -6,7 +6,7 @@
 
 * We added more code to our components and made a fully functioning game. We used variables to keep track of the player's progress and conditionals to control what happened in the game.
 
-* We learned about components and assets that control graphics and audio in Unity.
+* We learned about graphics and audio in Unity.
 
 * We learned how to import assets into our Unity project.
 
