@@ -26,6 +26,12 @@
 
 ## The Unity Editor
 
+### Prefabs
+
+We looked at **_[Prefabs](https://docs.unity3d.com/Manual/Prefabs.html)_** when we imported assets into our project. A Prefab is an asset that is like a blueprint for a GameObject. When we drag a Prefab from our Project panel into our Scene view or Hierarchy panel, Unity makes a GameObject from that blueprint. This means that GameObject that is placed in our Scene already has all of the same components and settings as the Prefab.
+
+We can recognise a prefab in the Project panel by the blue cube icon. We can recognise a copy of a Prefab in our Hierarchy view as its name appears in blue.
+
 ### Graphics
 
 We learned that the term for drawing things to the screen is **_rendering_**. Unity needs several different components and assets in order to render a GameObject. A **_[MeshFilter](https://docs.unity3d.com/Manual/class-MeshFilter.html)_** component has a **_[mesh](https://docs.unity3d.com/Manual/class-Mesh.html)_** asset, and this tells Unity what shape the GameObject is. A **_[Renderer](https://docs.unity3d.com/Manual/class-MeshRenderer.html)_** component has at least one **_[material](https://docs.unity3d.com/Manual/class-Material.html)_** asset, and this tells Unity how to draw the surface of the GameObject.
