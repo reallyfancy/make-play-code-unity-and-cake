@@ -136,4 +136,5 @@ We also used the > operator to check if one value was greater than another.
 
 * To refresh your knowledge of variables and functions in C#, watch [this Unity video on variables and functions](https://unity3d.com/learn/tutorials/topics/scripting/variables-and-functions?playlist=17117).
 
+* To get a quick reminder on how tags work in Unity, watch [this Unity video on tags](https://unity3d.com/learn/tutorials/topics/interface-essentials/tags?playlist=17090).
 
