@@ -28,15 +28,15 @@
 
 ### Graphics
 
-We learned that the term for drawing things to the screen in a game is **_rendering_**. Unity needs several different components and assets in order to render a GameObject: a **_[MeshFilter](https://docs.unity3d.com/Manual/class-MeshFilter.html)_** component, a **_[mesh](https://docs.unity3d.com/Manual/class-Mesh.html)_**, a **_[Renderer](https://docs.unity3d.com/Manual/class-MeshRenderer.html)_** component and at least one **_[material](https://docs.unity3d.com/Manual/class-Material.html)_**. We don't need to memorise these - we just need to realise that rendering is complex!
+We learned that the term for drawing things to the screen in a game is **_rendering_**. Unity needs several different components and assets in order to render a GameObject. A **_[MeshFilter](https://docs.unity3d.com/Manual/class-MeshFilter.html)_** component has a **_[mesh](https://docs.unity3d.com/Manual/class-Mesh.html)_** asset, and this tells Unity what shape the GameObject is. A **_[Renderer](https://docs.unity3d.com/Manual/class-MeshRenderer.html)_** component has at least one **_[material](https://docs.unity3d.com/Manual/class-Material.html)_** asset, and this tells Unity how to draw the surface of the GameObject.
 
-The simplest way to change the appearance of a GameObject is to change the material that its renderer uses. We created a couple of simple new materials to give our Scene a little colour.
+We created a couple of simple new materials to give our Scene a little colour.
 
 ### Audio
 
-We learned that whene we drop an audio file (like an .mp3 or .wav file) into Unity, Unity turns it into an **_[AudioClip]_**{https://docs.unity3d.com/ScriptReference/AudioClip.html} asset. Like all assets in your project, you can select an AudioClip in the Project panel to see information about it in the Inspector panel.
+We learned that whene we drop an audio file (like an .mp3 or .wav file) into Unity, Unity turns it into an **_[AudioClip]_**(https://docs.unity3d.com/ScriptReference/AudioClip.html) asset. Like all assets in your project, you can select an AudioClip in the Project panel to see information about it in the Inspector panel.
 
-To play and hear an AudioClip, we need two things: an **_[AudioSource]{https://docs.unity3d.com/ScriptReference/AudioSource.html}_** and an **_[AudioListener]{https://docs.unity3d.com/ScriptReference/AudioListener.html}_**. An AudioSource plays sound, and an AudioListener receives sound.
+To play and hear an AudioClip, we need two things: an **_[AudioSource](https://docs.unity3d.com/ScriptReference/AudioSource.html)_** and an **_[AudioListener](https://docs.unity3d.com/ScriptReference/AudioListener.html)_**. An AudioSource plays sound, and an AudioListener receives sound.
 
 ## Writing code
 
@@ -60,7 +60,7 @@ An int is a round number. Other types we looked at this week include string (a s
 
 #### Setting the value of a variable
 
-We set the value of a variable using the = operator, like so:
+We can set the value of a variable using the = operator, like so:
 
 <pre>
 score = 100;
@@ -116,7 +116,7 @@ else
 }
 </pre>
 
-There are various ways of building more complex conditionals that cover all sorts of cases. We'll keep it simple and will only use *if* and *else* statements in this course.
+There are various ways of building more complex conditionals that cover all sorts of cases. We'll keep it simple and will only use *if*  statements in this course.
 
 ### Operators
 
@@ -124,7 +124,7 @@ We learned a little about operators in C# in order to write our *if* statements.
 
 Most importantly, we learned that a single equals sign sets the value of a variable, and a double equals sign checks if one value is equal to another. We'll usually get an error if we mix these up in our code, but it's good to remember!
 
-We also used the < operator to check if one value was less than another.
+We also used the > operator to check if one value was greater than another.
 
 ## Resources
 
