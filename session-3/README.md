@@ -4,13 +4,11 @@
 
 ## What we learned this week
 
-* We learned that Unity takes care of most tasks related to graphics and audio for us. We only have to add our assets, wire things together and customise settings.
+* We added more code to our components and made a fully functioning game. We used variables to keep track of the player's progress and conditionals to control what happened in the game.
 
-* We learned the terms for the different components and assets that control graphics and audio in Unity.
+* We learned about components and assets that control graphics and audio in Unity.
 
 * We learned how to import assets into our Unity project.
-
-* We added more code to our components and made a fully functioning game.
 
 ## This week’s homework
 
@@ -25,6 +23,10 @@
 * Work on your projects! Lay out the Scene the way you like, and experiment with assets to get it looking and sounding how you want.
 
 ## The Unity Editor
+
+### Tags
+
+We learned that Unity uses **_[Tags](https://docs.unity3d.com/Manual/Tags.html)_** to identify GameObjects. We learned that we can add Tags to GameObjects and that we can access that a GameObject's Tag in our code. We used Tags to recognise when the player had collided with objects that they could interact with.
 
 ### Prefabs
 
@@ -135,6 +137,8 @@ We also used the > operator to check if one value was greater than another.
 ## Resources
 
 * To refresh your knowledge of variables and functions in C#, watch [this Unity video on variables and functions](https://unity3d.com/learn/tutorials/topics/scripting/variables-and-functions?playlist=17117).
+
+* To refresh your knowledge of conditionals in C#, watch [this Unity video on conditionals](https://unity3d.com/learn/tutorials/topics/scripting/if-statements?playlist=17117).
 
 * To get a quick reminder on how tags work in Unity, watch [this Unity video on tags](https://unity3d.com/learn/tutorials/topics/interface-essentials/tags?playlist=17090).
 
