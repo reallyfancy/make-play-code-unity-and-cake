@@ -95,7 +95,7 @@ public class Example : MonoBehaviour
 }
 </pre>
 
-In the next example, the function OnTriggerEnter receives a parameter with a type of collider and a name of *other*. This means that the variable with the name of *other* holds a reference to a Collider Ccmponent. We use the dot operator to get the value of the public variable *tag* from that Collider component.
+In the next example, the function *OnTriggerEnter* receives a parameter with a type of collider and a name of *other*. This means that the variable with the name of *other* holds a reference to a Collider Ccmponent. We use the dot operator to get the value of the public variable *tag* from that Collider component.
 
 <pre>
 void OnTriggerEnter (Collider other)
