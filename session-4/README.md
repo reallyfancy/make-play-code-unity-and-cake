@@ -54,11 +54,11 @@ public class LoadSceneOnTriggerEnter : MonoBehaviour
 }
 </pre>
 
-### References to other Components
+### References to other components
 
-Variables can hold much more interesting data that just ints or strings. A variable's value can be another GameObject or Component. In this case, we say that the variable's value is a **_reference_** to that GameObject or Component. A variable that holds a reference is called a **_reference typed variable_**.
+Variables can hold much more interesting data that just ints or strings. A variable's value can be another GameObject or Component. In this case, we say that the variable's value is a **_reference_** to that GameObject or component. A variable that holds a reference is called a **_reference typed variable_**.
 
-In the following code, we declare a variable with a name of *progressText* and a type of Text. This means that this variable's value can be set to a specific Text Component. Because *progressText* is a public variable, we can set its value in the Inspector panel by dragging a Text component into the **Progress Text** field.
+In the following code, we declare a variable with a name of *progressText* and a type of Text. This means that this variable's value can be set to a specific Text component. Because *progressText* is a public variable, we can set its value in the Inspector panel by dragging a Text component into the **Progress Text** field.
 
 <pre>
 using UnityEngine;
@@ -72,13 +72,13 @@ public class Example : MonoBehaviour
 
 ### Accessing variables and functions of other components
 
-If we have a variable that holds a reference to another Component, we can access variables and functions of that other Component.
+If we have a variable that holds a reference to another component, we can access variables and functions of that other Component.
 
-We access variables and functions of Components by using the **_dot operator_**. 
+We access variables and functions of components by using the **_dot operator_**. 
 
-To access a public variable of another Component, we write the name of the variable that holds the reference to the Component, then a dot, then the name of the variable we want to access.
+To access a public variable of another component, we write the name of the variable that holds the reference to the component, then a dot, then the name of the variable we want to access.
 
-In the following code, the variable named *progressText* has a reference to a Text Component. In the *Start* function, we use the dot operator to set the value of the variable *text* on that Text Component.
+In the following code, the variable named *progressText* has a reference to a Text component. In the *Start* function, we use the dot operator to set the value of the variable *text* on that Text component.
 
 <pre>
 using UnityEngine;
@@ -95,7 +95,7 @@ public class Example : MonoBehaviour
 }
 </pre>
 
-In the next example, the function OnTriggerEnter receives a parameter with a type of Collider and a name of *other*. This means that the variable with the name of *other* holds a reference to a Collider Component. We use the dot operator to get the value of the public variable *tag* from that Collider.
+In the next example, the function OnTriggerEnter receives a parameter with a type of collider and a name of *other*. This means that the variable with the name of *other* holds a reference to a Collider Ccmponent. We use the dot operator to get the value of the public variable *tag* from that Collider component.
 
 <pre>
 void OnTriggerEnter (Collider other)
