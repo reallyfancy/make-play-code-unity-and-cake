@@ -123,7 +123,7 @@ public class Example : MonoBehaviour
 
 ### Conditionals
 
-A conditional in C# works the same as it does in Scratch - you have a statement, followed by code that runs if it’s true and, optionally, code that runs if it’s false. We write it like this:
+A conditional in C# works the same as it does in Scratch. A simple conditional consists of a statement and some code that runs only if the statement is true. The following code is an example of a conditional in C#:
 
 <pre>
 if (score == 10)
@@ -147,15 +147,13 @@ else
 }
 </pre>
 
-There are various ways of building more complex conditionals that cover all sorts of cases. We'll keep it simple and will only use *if*  statements in this course.
+We can use C# to build complex conditionals, but for this course we'll keep it simple and will only use *if* statements.
 
 ### Operators
 
 We learned a little about operators in C# in order to write our *if* statements.
 
-Most importantly, we learned that a single equals sign sets the value of a variable, and a double equals sign checks if one value is equal to another. We'll usually get an error if we mix these up in our code, but it's good to remember!
-
-We also used the > operator to check if one value was greater than another.
+We used the = operator to set the value of a variable and the == operator to compare the value of a variable. We also used the > operator to determine whether one value was greater than another.
 
 ## Resources
 
