@@ -71,7 +71,7 @@ private void PrintToConsole()
 }
 </pre>
 
-The first line tells Unity about the function and how to call it. The most important part of this is the **_name_** of the function. In this example, the name of the function is *PrintToConsole*. Function names must be one word, and are its best to make them descriptive.
+The first line tells Unity about the function and how to call it. The most important part of this is the **_name_** of the function. In this example, the name of the function is *PrintToConsole*. Function names must be one word. It's best to make them descriptive so that we can easily understand what the function does.
 
 The instructions that make up the function go inside the curly brackets. These instructions are called the **_body_** of the function. Each separate line of code is an instruction to Unity to do something, and they are followed in order. In this example, the body of the function sends a message to the console in Unity.
 
@@ -109,7 +109,7 @@ In Scratch, we can use Event blocks to run code when the user restarts the game 
 *Start* is an event function. If we put a function named *Start* in our script, Unity will call this function automatically when a GameObject with this script on it first appears in a Scene.
 
 <pre>
-private void Start()
+void Start()
 {
 	Debug.Log("Start has been called!");
 }
