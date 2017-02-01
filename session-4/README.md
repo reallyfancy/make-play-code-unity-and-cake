@@ -26,6 +26,8 @@
 
 We learned how to lay out simple displays using Unity's UI system.
 
+All UI elements need to be children of a GameObject with a Canvas component on it. A Canvas can have multiple child UI elements. Unlike other GameObjects, UI elements don't have a Transform. To change the position of a UI element, we must instead use the UI element's RectTransform. The RectTransform determines how the UI item is positioned within its Canvas.
+
 ## Writing code
 
 This week we learned how to write code that lets our components can communicate with other components.
