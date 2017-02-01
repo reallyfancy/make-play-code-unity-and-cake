@@ -98,6 +98,29 @@ string message = "Hello";
 Debug.Log(message);
 </pre>
 
+### Member and local variables
+
+Where we declare a variable is very important. A variable that is declared outside of a function is called a **_member variable_**. A variable that is declared within a function or conditional is called a **_local variable_**. 
+
+A member variable can be used anywhere inside the same script. A local variable can only be used in inside the function or conditional where it was declared.
+
+In the following example, the variable *score* is a member variable because it is declared outside of any functions. It can be used in any functions within this class. The variable named *message* is a local variable because it is declared inside the *Start* function. It can only be used within the *Start* function.
+
+<pre>
+using UnityEngine;
+
+public class Example : MonoBehaviour 
+{
+	int score;
+
+	void Start()
+	{
+		string message = "Hello!";
+        score = 10;
+	}
+}
+</pre>
+
 ### Conditionals
 
 A conditional in C# works the same as it does in Scratch - you have a statement, followed by code that runs if it’s true and, optionally, code that runs if it’s false. We write it like this:
