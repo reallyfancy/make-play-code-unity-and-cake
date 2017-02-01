@@ -18,17 +18,17 @@ We learned that we can use Scratch to create code. We also learned that there is
 
 ## Coding basics
 
-We learned that code can be broken down into two main types: data and instructions. The technical names that we’ll be using from now on are **_variables_** for data and **_functions_** for instructions. 
+We learned that code can be broken down into a few parts The parts that we looked at today are variables, functions, conditionals and operators.
 
 ### Variables
 
-Variables are pieces of information that we want to remember and use later. A variable has a name and a value. A real world example of a variable is a contact in your phone - it has a name (the person’s name) and a value (the person’s phone number).
+A **_variable_** is a piece of information that we want to remember and use later. A variable has a name and a value. A real world example of a variable is a contact in your phone - it has a name (the person’s name) and a value (the person’s phone number).
 
 In the sample project, there is a variable with a name of *candlesNeeded*. This variable is used to determine how many candles the player needs to collect to complete the game.
 
 ### Functions
 
-A function is a set of instructions that is followed in order. When the program is told to follow that particular set of instructions, we say that the function has been **_called_**.
+A **_function_** is a set of instructions that is followed in order. When the program is told to follow that particular set of instructions, we say that the function has been **_called_**.
 
 We’ll look at functions in more detail next week, but we can think of the connected blocks in Scratch as being like functions. When we send a message in Scratch, this is a way of calling these functions.
 
@@ -44,15 +44,7 @@ In the sample project, we use a conditional to send a message when the value of 
 
 **_Operators_** are symbols that represent mathematical or logical actions. Some are already familiar from everyday use and some are specific to programming. 
 
-We looked at three types of operators today:
-
-* *Arithmetic operators* describe an action that should be performed on two values, such as using + to add two number together.
-
-* *Comparison operators* are used to compare two values, such as using > to determine if one number is greater than another.
-
-* *Logical operators* are used to make conditionals more complex and powerful, such as using AND to indicate that something should happen if more than one statement is true.
-
-In the sample project, we used an arithmetic operator to set the value of *candlesNeeded* to 3 when the game started and to reduce the value of *candlesNeeded* by 1 when the player clicked on candles. We used a comparison operator to check whether the value of *candlesNeeded* less than 1, meaning that the player had collected enough candles.
+In the sample project, we used the = operator to set the value of *candlesNeeded* to 3 when the game started. We used the - opertor to reduce the value of *candlesNeeded* when the player clicked on candles. We used the < operator to check whether the value of *candlesNeeded* was less than 1.
 
 ## Resources
 
