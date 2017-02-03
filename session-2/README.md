@@ -14,6 +14,8 @@
 
 * We learned that we can make our own components by writing code.
 
+* We wrote some code for or game. We used functions to tell Unity when to run our code.
+
 ## This week’s homework
 
 * Read through these notes and keep them handy as you go through the following steps.
