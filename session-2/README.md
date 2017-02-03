@@ -38,11 +38,11 @@ We tell GameObjects to do things by adding **_[components](http://docs.unity3d.c
 
 ### Making our own components
 
-Unity contains lots of pre-made components for common tasks such as playing a sound or displaying graphics. We can build simple things with these pre-made components, but to customise our game we must create our own components. We do this by writing **_code_** in a **_[script](http://docs.unity3d.com/Manual/CreatingAndUsingScripts.html)_**. The code we write in our script tells Unity how the component will work.
+Unity contains lots of pre-made components for common tasks such as playing a sound or displaying graphics. We can build  things with these pre-made components, but to customise our game we must create our own components. We do this by writing **_code_** in a **_[script](http://docs.unity3d.com/Manual/CreatingAndUsingScripts.html)_** file. The code in our script file tells Unity how the component will work.
 
 ## Writing code
 
-We write code for Unity using a language called C# (pronounced **see sharp**). We write our code in a separate program called a **_text editor_** and save our code in a script file. When we return to Unity, we can use the script file in our Unity project.					
+We write code for Unity using a language called C# (pronounced **see sharp**). We write our code in a separate program called a **_text editor_** and save our code in a script file. We can then use the script file in Unity.
 
 ### C# basics
 
