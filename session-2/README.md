@@ -8,7 +8,7 @@
 
 * We learned that most of the assets for a game are created in separate programs and imported into Unity.
 
-* We learned the basics of using the Unity Editor: what the different windows and panels do, the difference between Play Mode and Edit Mode and how to arrange objects in the Scene.
+* We learned the basics of using the Unity Editor: what the different windows do, the difference between Play Mode and Edit Mode and how to arrange objects in the Scene.
 
 * We learned that the building blocks of Unity are GameObjects and components.
 
