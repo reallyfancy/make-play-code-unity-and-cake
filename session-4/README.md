@@ -30,7 +30,7 @@ All UI elements need to be children of a GameObject with a Canvas component on i
 
 Unlike other GameObjects, UI elements don't have a Transform. To change the position of a UI element, we must instead use the UI element's RectTransform. The RectTransform determines how the UI item is positioned within its Canvas.
 
-A Text component displays text. We can set the font face, size, formatting and text using the Inspector window.
+A [Text](https://docs.unity3d.com/Manual/script-Text.html) component displays text. We can set the font face, size, formatting and text using the Inspector window.
 
 An Image component displays an texture asset (an image file, such as a .jpg or .png). We can choose which texture asset it displays using the Inspector window. The texture must have its Texture Type set to Sprite in the Inspector window.
 
