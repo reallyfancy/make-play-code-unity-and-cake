@@ -26,7 +26,13 @@
 
 We learned how to lay out simple displays using Unity's UI system.
 
-All UI elements need to be children of a GameObject with a Canvas component on it. A Canvas can have multiple child UI elements. Unlike other GameObjects, UI elements don't have a Transform. To change the position of a UI element, we must instead use the UI element's RectTransform. The RectTransform determines how the UI item is positioned within its Canvas.
+All UI elements need to be children of a GameObject with a Canvas component on it. A Canvas can have multiple child UI elements. A Canvas determines how its child UI elements scale, and whether they appear to be a part of the 3D world or whether they sit on top of it.
+
+Unlike other GameObjects, UI elements don't have a Transform. To change the position of a UI element, we must instead use the UI element's RectTransform. The RectTransform determines how the UI item is positioned within its Canvas.
+
+A Text component displays text. We can set the font face, size, formatting and text using the Inspector window.
+
+An Image component displays an texture asset (an image file, such as a .jpg or .png). We can choose which texture asset it displays using the Inspector window. The texture must have its Texture Type set to Sprite in the Inspector window.
 
 ## Writing code
 
