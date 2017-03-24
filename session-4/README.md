@@ -95,11 +95,11 @@ using UnityEngine.UI;
 public class Example : MonoBehaviour 
 {
 	public Text progressText;
-    
-    void Start()
-    {
-        progressText.text = "Hello!";
-    }
+	
+	void Start()
+	{
+		progressText.text = "Hello!";
+	}
 }
 </pre>
 
@@ -110,8 +110,8 @@ void OnTriggerEnter (Collider other)
 {
 	if (other.tag == "Collectable")
 	{
-        Debug.Log("Collided with a Collectable!");
-    }
+        	Debug.Log("Collided with a Collectable!");
+    	}
 }
 </pre>
 
