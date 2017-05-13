@@ -1,4 +1,5 @@
 # Make Play Code: Unity and Cake
+
 Sample projects and notes for students of [Make Play Code's](http://www.makeplaycode.com/) Unity and Cake course.
 
 To read the notes online, simply click on the session number above.
